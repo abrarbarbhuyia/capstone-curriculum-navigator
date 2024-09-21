@@ -1,0 +1,383 @@
+{
+  "majors": {
+    "Civil Engineering": {
+      "Year 1": {
+        "Autumn Session": {
+          "Courses": [
+            "48230 Engineering Communication",
+            "33130 Mathematical Modelling 1",
+            "68037 Physical Modelling",
+            "48310 Introduction to Civil and Environmental Engineering"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "33230 Mathematical Modelling 2",
+            "60101 Chemistry and Materials Science",
+            "48321 Engineering Mechanics",
+            "48320 Surveying"
+          ]
+        }
+      },
+      "Year 2": {
+        "Autumn Session": {
+          "Courses": [
+            "48221 Engineering Computations",
+            "48240 Design and Innovation Fundamentals",
+            "48331 Mechanics of Solids",
+            "48641 Fluid Mechanics"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "48250 Engineering Economics and Finance",
+            "48340 Construction",
+            "48350 Environmental and Sanitation Engineering",
+            "Select 6 credit points of electives"
+          ]
+        }
+      },
+      "Year 3": {
+        "Autumn Session": {
+          "Courses": [
+            "48330 Soil Behaviour",
+            "48349 Structural Analysis",
+            "48352 Construction Materials",
+            "48001 Project BEngSc"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "48210 Interrogating Technology: Sustainability, Environment and Social Change",
+            "48353 Concrete Design",
+            "Select 12 credit points of electives"
+          ]
+        }
+      }
+    },
+    "Data Engineering": {
+      "Year 1": {
+        "Autumn Session": {
+          "Courses": [
+            "33130 Mathematical Modelling 1",
+            "48230 Engineering Communication",
+            "48430 Fundamentals of C Programming",
+            "41082 Introduction to Data Engineering"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "33230 Mathematical Modelling 2",
+            "31250 Introduction to Data Analytics",
+            "41092 Network Fundamentals",
+            "41084 Fundamentals Studio A"
+          ]
+        }
+      },
+      "Year 2": {
+        "Autumn Session": {
+          "Courses": [
+            "68037 Physical Modelling",
+            "41081 Sensing, Actuation and Control",
+            "41090 Information and Signals",
+            "41085 Fundamentals Studio B"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "48240 Design and Innovation Fundamentals",
+            "41086 Applications Studio A",
+            "Select 12 credit points: CBK91231 Technical subject choice (Data Engineering)"
+          ]
+        }
+      },
+      "Year 3": {
+        "Autumn Session": {
+          "Courses": [
+            "48250 Engineering Economics and Finance",
+            "48001 Project BEngSc",
+            "Select 6 credit points: CBK91231 Technical subject choice (Data Engineering)",
+            "Select 6 credit points of options"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "48210 Interrogating Technology: Sustainability, Environment and Social Change",
+            "41087 Applications Studio B",
+            "Select 12 credit points of options"
+          ]
+        }
+      }
+    },
+    "Electrical Engineering": {
+      "Year 1": {
+        "Autumn Session": {
+          "Courses": [
+            "33130 Mathematical Modelling 1",
+            "48230 Engineering Communication",
+            "48510 Introduction to Electrical and Electronic Engineering",
+            "68037 Physical Modelling"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "33230 Mathematical Modelling 2",
+            "48441 Introductory Digital Systems",
+            "48521 Fundamentals of Electrical Engineering",
+            "48520 Electronics and Circuits"
+          ]
+        }
+      },
+      "Year 2": {
+        "Autumn Session": {
+          "Courses": [
+            "48240 Design and Innovation Fundamentals",
+            "48430 Fundamentals of C Programming",
+            "48531 Electromechanical Automation",
+            "48530 Circuit Analysis and Design"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "48250 Engineering Economics and Finance",
+            "48540 Signals and Systems",
+            "68038 Advanced Mathematics and Physics",
+            "Select 6 credit points of electives"
+          ]
+        }
+      },
+      "Year 3": {
+        "Autumn Session": {
+          "Courses": [
+            "48572 Power Circuit Theory",
+            "48001 Project BEngSc",
+            "48570 Embedded Systems Studio B",
+            "Select 6 credit points of electives"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "48451 Embedded Systems Studio A",
+            "48571 Electrical Machines",
+            "48560 Control Studio A",
+            "Select 6 credit points of electives"
+          ]
+        }
+      }
+    },
+    "Electronic Engineering": {
+      "Year 1": {
+        "Autumn Session": {
+          "Courses": [
+            "33130 Mathematical Modelling 1",
+            "48230 Engineering Communication",
+            "48430 Fundamentals of C Programming",
+            "48510 Introduction to Electrical and Electronic Engineering"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "33230 Mathematical Modelling 2",
+            "48441 Introductory Digital Systems",
+            "41033 Integrated Electronic Systems Design",
+            "41084 Fundamentals Studio A"
+          ]
+        }
+      },
+      "Year 2": {
+        "Autumn Session": {
+          "Courses": [
+            "68037 Physical Modelling",
+            "41081 Sensing, Actuation and Control",
+            "48520 Electronics and Circuits",
+            "41085 Fundamentals Studio B"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "48240 Design and Innovation Fundamentals",
+            "41090 Information and Signals",
+            "Select 6 credit points: SMJ10089 Internet of Things (Systems and Devices) / SMJ10090 Internet of Things (Software) / SMJ10091 Communication Systems / SMJ10092 Machine Vision",
+            "41086 Applications Studio A"
+          ]
+        }
+      },
+      "Year 3": {
+        "Autumn Session": {
+          "Courses": [
+            "48001 Project BEngSc",
+            "41034 IoT Components and Fabrication",
+            "Select 6 credit points: SMJ10089 Internet of Things (Systems and Devices) / SMJ10090 Internet of Things (Software) / SMJ10091 Communication Systems / SMJ10092 Machine Vision",
+            "Select 6 credit points of options"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "48250 Engineering Economics and Finance",
+            "Select 6 credit points: SMJ10089 Internet of Things (Systems and Devices) / SMJ10090 Internet of Things (Software) / SMJ10091 Communication Systems / SMJ10092 Machine Vision",
+            "Select 12 credit points of options"
+          ]
+        }
+      }
+    },
+    "Mechanical Engineering": {
+      "Year 1": {
+        "Autumn Session": {
+          "Courses": [
+            "33130 Mathematical Modelling 1",
+            "48230 Engineering Communication",
+            "48610 Introduction to Mechanical and Mechatronic Engineering",
+            "68037 Physical Modelling"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "33230 Mathematical Modelling 2",
+            "48221 Engineering Computations",
+            "48620 Fundamentals of Mechanical Engineering",
+            "60101 Chemistry and Materials Science"
+          ]
+        }
+      },
+      "Year 2": {
+        "Autumn Session": {
+          "Courses": [
+            "48240 Design and Innovation Fundamentals",
+            "48621 Manufacturing Engineering",
+            "48331 Mechanics of Solids",
+            "48510 Introduction to Electrical and Electronic Engineering"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "48250 Engineering Economics and Finance",
+            "48600 Mechanical Design 1",
+            "48641 Fluid Mechanics",
+            "48640 Machine Dynamics"
+          ]
+        }
+      },
+      "Year 3": {
+        "Autumn Session": {
+          "Courses": [
+            "48642 Strength of Engineering Materials",
+            "48651 Thermodynamics",
+            "48660 Dynamics and Control",
+            "48001 Project BEngSc"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "48650 Mechanical Design 2",
+            "Select 18 credit points of electives"
+          ]
+        }
+      }
+    },
+    "Mechatronic Engineering": {
+      "Year 1": {
+        "Autumn Session": {
+          "Courses": [
+            "33130 Mathematical Modelling 1",
+            "48230 Engineering Communication",
+            "68037 Physical Modelling",
+            "48610 Introduction to Mechanical and Mechatronic Engineering"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "33230 Mathematical Modelling 2",
+            "48621 Manufacturing Engineering",
+            "48620 Fundamentals of Mechanical Engineering",
+            "48510 Introduction to Electrical and Electronic Engineering"
+          ]
+        }
+      },
+      "Year 2": {
+        "Autumn Session": {
+          "Courses": [
+            "48240 Design and Innovation Fundamentals",
+            "48520 Electronics and Circuits",
+            "48331 Mechanics of Solids",
+            "48622 Mechatronics 1"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "48250 Engineering Economics and Finance",
+            "48600 Mechanical Design 1",
+            "48623 Mechatronics 2",
+            "48640 Machine Dynamics"
+          ]
+        }
+      },
+      "Year 3": {
+        "Autumn Session": {
+          "Courses": [
+            "41012 Programming for Mechatronic Systems",
+            "48531 Electromechanical Automation",
+            "48660 Dynamics and Control",
+            "48001 Project BEngSc"
+          ]
+        },
+        "Spring Session": {
+          "Courses": ["41013 Robotics", "Select 18 credit points of options"]
+        }
+      }
+    },
+    "Software Engineering": {
+      "Year 1": {
+        "Autumn Session": {
+          "Courses": [
+            "33130 Mathematical Modelling 1",
+            "48230 Engineering Communication",
+            "48023 Programming Fundamentals",
+            "31269 Business Requirements Modelling"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "33230 Mathematical Modelling 2",
+            "48024 Applications Programming",
+            "31282 Systems Testing and Quality Management",
+            "31271 Database Fundamentals"
+          ]
+        }
+      },
+      "Year 2": {
+        "Autumn Session": {
+          "Courses": [
+            "68037 Physical Modelling",
+            "31251 Data Structures and Algorithms",
+            "41093 Software Engineering Studio 1A",
+            "Select 6 credit points: CBK91234 Technical subject choice (Software Engineering)"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "48240 Design and Innovation Fundamentals",
+            "48433 Software Architecture",
+            "41094 Software Engineering Studio 1B",
+            "Select 6 credit points: CBK91234 Technical subject choice (Software Engineering)"
+          ]
+        }
+      },
+      "Year 3": {
+        "Autumn Session": {
+          "Courses": [
+            "48250 Engineering Economics and Finance",
+            "31257 Information System Development Methodologies",
+            "Select 6 credit points: CBK91234 Technical subject choice (Software Engineering)",
+            "48001 Project BEngSc"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "Select 6 credit points: CBK91234 Technical subject choice (Software Engineering)",
+            "Select 18 credit points of options"
+          ]
+        }
+      }
+    }
+  }
+}

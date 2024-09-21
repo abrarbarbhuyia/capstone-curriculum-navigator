@@ -1,27 +1,72 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Card, Box, CardContent, Typography, Button, Autocomplete, TextField } from "@mui/material";
+import { useNavigate } from "react-router-dom"; 
+import Papa from 'papaparse'; 
+
+const courseFile = '/data/courseEng_filtered.csv'; 
+const majorsFile = '/data/majorEng.csv'; 
 
 const PersonalizeCard = () => {
-  const degrees = [
-    "C09066 Bachelor of Engineering (Honours)",
-    "C09067 Bachelor of Engineering (Honours) Diploma in Professional Engineering Practice",
-    "C10066 Bachelor of Engineering Science",
-    "C10408 Bachelor of Technology",
-  ];
+  const navigate = useNavigate(); // Hook to navigate to /chat
 
-  const years = [
-    "2020", "2021", "2022", "2023"
-  ]
+  const years = ["2020"]; // Since we are using 2020 scraped data from Chris.
 
-  const [selectedDegrees, setSelectedDegrees] = useState([]);
-  const [selectedYear, setSelectedYear] = useState([]);
+  const [courses, setCourses] = useState([]); 
+  const [majors, setMajors] = useState([]); 
+  const [selectedCourse, setSelectedCourse] = useState(null); 
+  const [selectedMajor, setSelectedMajor] = useState(null);
+  const [selectedYear, setSelectedYear] = useState(null); 
+
+  // Fetch and parse the Course CSV file
+  useEffect(() => {
+    Papa.parse(courseFile, {
+      download: true,
+      header: true, 
+      complete: (result) => {
+        // Extract "Full Title" and remove duplicates using Set
+        const fullTitles = [...new Set(result.data.map((row) => row["Full Title"] || "").filter(Boolean))];
+        setCourses(fullTitles); 
+      },
+      error: (error) => {
+        console.error("Error parsing course CSV file:", error);
+      },
+    });
+  }, []);
+
+  // Fetch and parse the Major CSV file
+  useEffect(() => {
+    Papa.parse(majorsFile, {
+      download: true,
+      header: true, 
+      complete: (result) => {
+        // Extract "Full Title" and remove duplicates using Set
+        const fullTitles = [...new Set(result.data.map((row) => row["Short Title"] || "").filter(Boolean))];
+        setMajors(fullTitles); 
+      },
+      error: (error) => {
+        console.error("Error parsing major CSV file:", error);
+      },
+    });
+  }, []);
+
+  const handleProceed = () => {
+    // Save the selected data to localStorage
+    localStorage.setItem('selectedCourse', selectedCourse);
+    localStorage.setItem('selectedMajor', selectedMajor);
+    localStorage.setItem('selectedYear', selectedYear);
+
+    navigate("/chat");
+  };
+
+  // Check if all required fields are filled
+  const isFormValid = selectedCourse && selectedMajor && selectedYear;
 
   return (
-    <Box class="flex justify-center mt-10">
+    <Box className="flex justify-center mt-10">
       <Card
         sx={{
           width: "450px",
-          height: "340px",
+          height: "450px", 
           alignSelf: "center",
           borderRadius: "12px",
           padding: "12px",
@@ -29,32 +74,57 @@ const PersonalizeCard = () => {
           boxShadow: "none",
         }}
       >
-        <CardContent class="p-3 flex flex-col">
+        <CardContent className="p-3 flex flex-col">
           <Box>
-            <Typography class="text-2xl font-semibold">
+            <Typography className="text-2xl font-semibold">
               Profile Information
             </Typography>
-            <Box class="mt-5">
-              <Typography variant="subtitle1">Engineering Degree</Typography>
+
+            {/* Course Selection */}
+            <Box className="mt-5">
+              <Typography variant="subtitle1">Select Course</Typography>
               <Autocomplete
-                limitTags={2}
-                id="multiple-limit-tags"
-                options={degrees}
+                id="course-select"
+                options={courses}
                 getOptionLabel={(option) => option}
-                value={selectedDegrees}
-                onChange={(event, newValue) => setSelectedDegrees(newValue)}
+                value={selectedCourse}
+                onChange={(event, newValue) => setSelectedCourse(newValue)}
                 renderInput={(params) => (
                   <TextField
                     {...params}
+                    label="Course"
+                    variant="outlined"
+                    required 
                   />
                 )}
               />
             </Box>
-            <Box class="mt-5">
-              <Typography variant="subtitle1">Commecing Year</Typography>
+
+            {/* Major Selection */}
+            <Box className="mt-5">
+              <Typography variant="subtitle1">Select Major</Typography>
               <Autocomplete
-                limitTags={2}
-                id="multiple-limit-tags"
+                id="major-select"
+                options={majors}
+                getOptionLabel={(option) => option}
+                value={selectedMajor}
+                onChange={(event, newValue) => setSelectedMajor(newValue)}
+                renderInput={(params) => (
+                  <TextField
+                    {...params}
+                    label="Major"
+                    variant="outlined"
+                    required 
+                  />
+                )}
+              />
+            </Box>
+
+            {/* Year Selection */}
+            <Box className="mt-5">
+              <Typography variant="subtitle1">Commencing Year</Typography>
+              <Autocomplete
+                id="year-select"
                 options={years}
                 getOptionLabel={(option) => option}
                 value={selectedYear}
@@ -62,14 +132,23 @@ const PersonalizeCard = () => {
                 renderInput={(params) => (
                   <TextField
                     {...params}
+                    label="Year"
+                    variant="outlined"
+                    required 
                   />
                 )}
               />
             </Box>
-            <Box class="mt-5 justify-center flex">
-                <Button variant="contained" sx={{borderRadius: "12px"}}>
-                    Proceed to chat
-                </Button>
+
+            <Box className="mt-5 justify-center flex">
+              <Button 
+                variant="contained" 
+                sx={{ borderRadius: "12px" }}
+                onClick={handleProceed} 
+                disabled={!isFormValid} // Disable button if form is not valid
+              >
+                Proceed to chat
+              </Button>
             </Box>
           </Box>
         </CardContent>
