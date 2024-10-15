@@ -60,7 +60,7 @@
             "48270 Entrepreneurship and Commercialisation",
             "41045 Engineering Practice Preparation 2",
             "Select 12 credit points: CBK91740 Biomedical Engineering thread choice",
-            "Select 6 credit points of options"
+            "Select 6 credit points: CBK91740 Biomedical Engineering thread choice"
           ]
         },
         "Spring Session": {
@@ -76,14 +76,14 @@
             "41029 Engineering Research Preparation",
             "41048 Engineering Practice Reflection 2",
             "Select 6 credit points: CBK91740 Biomedical Engineering thread choice",
-            "Select 12 credit points of options"
+            "Select 6 credit points: CBK91740 Biomedical Engineering thread choice"
           ]
         },
         "Spring Session": {
           "Courses": [
             "41030 Engineering Capstone",
             "Select 12 credit points: CBK91740 Biomedical Engineering thread choice",
-            "Select 6 credit points of options"
+            "Select 6 credit points: CBK91740 Biomedical Engineering thread choice"
           ]
         }
       }
@@ -175,6 +175,458 @@
             "41030 Engineering Capstone",
             "Select 6 credit points of options",
             "48362 Hydraulics and Hydrology"
+          ]
+        }
+      }
+    },
+    "Mechatronic Engineering": {
+      "Year 1": {
+        "Autumn Session": {
+          "Courses": [
+            "33130 Mathematical Modelling 1",
+            "48230 Engineering Communication",
+            "48610 Introduction to Mechanical and Mechatronic Engineering",
+            "68037 Physical Modelling"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "33230 Mathematical Modelling 2",
+            "48510 Introduction to Electrical and Electronic Engineering",
+            "48620 Fundamentals of Mechanical Engineering",
+            "48621 Manufacturing Engineering"
+          ]
+        }
+      },
+      "Year 2": {
+        "Autumn Session": {
+          "Courses": [
+            "41035 Engineering Practice Preparation 1",
+            "48240 Design and Innovation Fundamentals",
+            "48520 Electronics and Circuits",
+            "48331 Mechanics of Solids",
+            "48640 Machine Dynamics"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "41036 Engineering Professional Experience 1",
+            "41037 Work Integrated Learning 1"
+          ]
+        }
+      },
+      "Year 3": {
+        "Autumn Session": {
+          "Courses": [
+            "48600 Mechanical Design 1",
+            "48622 Mechatronics 1",
+            "48642 Strength of Engineering Materials",
+            "48651 Thermodynamics",
+            "41038 Engineering Practice Reflection 1"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "48623 Mechatronics 2",
+            "48650 Mechanical Design 2",
+            "48660 Dynamics and Control",
+            "48250 Engineering Economics and Finance"
+          ]
+        }
+      },
+      "Year 4": {
+        "Autumn Session": {
+          "Courses": [
+            "41045 Engineering Practice Preparation 2",
+            "48260 Engineering Project Management",
+            "41012 Programming for Mechatronic Systems",
+            "41014 Sensors and Control for Mechatronic Systems",
+            "48531 Electromechanical Automation"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "41046 Engineering Professional Experience 2",
+            "41047 Work Integrated Learning 2"
+          ]
+        }
+      },
+      "Year 5": {
+        "Autumn Session": {
+          "Courses": [
+            "41029 Engineering Research Preparation",
+            "41013 Robotics",
+            "41048 Engineering Practice Reflection 2",
+            "Select 12 credit points of options"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "48270 Entrepreneurship and Commercialisation",
+            "41030 Engineering Capstone",
+            "Select 12 credit points of options"
+          ]
+        }
+      }
+    },
+    "Data Engineering": {
+      "Year 1": {
+        "Autumn Session": {
+          "Courses": [
+            "33130 Mathematical Modelling 1",
+            "41082 Introduction to Data Engineering",
+            "48430 Fundamentals of C Programming",
+            "Select 6 credit points: 41092 Network Fundamentals / 31250 Introduction to Data Analytics"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "33230 Mathematical Modelling 2",
+            "41084 Fundamentals Studio A",
+            "48230 Engineering Communication",
+            "Select 6 credit points: 41092 Network Fundamentals / 31250 Introduction to Data Analytics"
+          ]
+        }
+      },
+      "Year 2": {
+        "Autumn Session": {
+          "Courses": [
+            "41035 Engineering Practice Preparation 1",
+            "68037 Physical Modelling",
+            "41081 Sensing, Actuation and Control",
+            "41090 Information and Signals",
+            "41085 Fundamentals Studio B"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "41036 Engineering Professional Experience 1",
+            "41037 Work Integrated Learning 1"
+          ]
+        }
+      },
+      "Year 3": {
+        "Autumn Session": {
+          "Courses": [
+            "48240 Design and Innovation Fundamentals",
+            "41083 Data Engineering Design",
+            "41086 Applications Studio A",
+            "41038 Engineering Practice Reflection 1",
+            "Select 6 credit points: CBK91231 Technical subject choice (Data Engineering)"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "48250 Engineering Economics and Finance",
+            "41091 Data Systems",
+            "41087 Applications Studio B",
+            "Select 6 credit points: CBK91231 Technical subject choice (Data Engineering)"
+          ]
+        }
+      },
+      "Year 4": {
+        "Autumn Session": {
+          "Courses": [
+            "48260 Engineering Project Management",
+            "48210 Interrogating Technology: Sustainability, Environment and Social Change",
+            "41088 Professional Studio A",
+            "41045 Engineering Practice Preparation 2",
+            "Select 6 credit points: CBK91231 Technical subject choice (Data Engineering)"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "41046 Engineering Professional Experience 2",
+            "41047 Work Integrated Learning 2"
+          ]
+        }
+      },
+      "Year 5": {
+        "Autumn Session": {
+          "Courses": [
+            "48270 Entrepreneurship and Commercialisation",
+            "41029 Engineering Research Preparation",
+            "41048 Engineering Practice Reflection 2",
+            "Select 12 credit points of options"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "41030 Engineering Capstone",
+            "Select 12 credit points of options",
+            "41089 Professional Studio B"
+          ]
+        }
+      }
+    },
+    "Software Engineering": {
+      "Year 1": {
+        "Autumn Session": {
+          "Courses": [
+            "33130 Mathematical Modelling 1",
+            "48230 Engineering Communication",
+            "31269 Business Requirements Modelling",
+            "Select 6 credit points: 41039 Programming 1 / 48023 Programming Fundamentals"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "33230 Mathematical Modelling 2",
+            "48024 Applications Programming",
+            "31282 Systems Testing and Quality Management",
+            "31271 Database Fundamentals"
+          ]
+        }
+      },
+      "Year 2": {
+        "Autumn Session": {
+          "Courses": [
+            "41035 Engineering Practice Preparation 1",
+            "68037 Physical Modelling",
+            "31251 Data Structures and Algorithms",
+            "31257 Information System Development Methodologies",
+            "41093 Software Engineering Studio 1A"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "41036 Engineering Professional Experience 1",
+            "41037 Work Integrated Learning 1"
+          ]
+        }
+      },
+      "Year 3": {
+        "Autumn Session": {
+          "Courses": [
+            "48240 Design and Innovation Fundamentals",
+            "Select 6 credit points: CBK91234 Technical subject choice (Software Engineering)",
+            "41094 Software Engineering Studio 1B",
+            "41038 Engineering Practice Reflection 1",
+            "Select 6 credit points: CBK91234 Technical subject choice (Software Engineering)"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "48250 Engineering Economics and Finance",
+            "41095 Software Engineering Studio 2A",
+            "48433 Software Architecture",
+            "Select 6 credit points: CBK91234 Technical subject choice (Software Engineering)"
+          ]
+        }
+      },
+      "Year 4": {
+        "Autumn Session": {
+          "Courses": [
+            "41045 Engineering Practice Preparation 2",
+            "48260 Engineering Project Management",
+            "41096 Software Engineering Studio 2B",
+            "Select 6 credit points: CBK91234 Technical subject choice (Software Engineering)",
+            "Select 6 credit points: CBK91234 Technical subject choice (Software Engineering)"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "41046 Engineering Professional Experience 2",
+            "41047 Work Integrated Learning 2"
+          ]
+        }
+      },
+      "Year 5": {
+        "Autumn Session": {
+          "Courses": [
+            "41029 Engineering Research Preparation",
+            "48270 Entrepreneurship and Commercialisation",
+            "41048 Engineering Practice Reflection 2",
+            "41097 Software Engineering Studio 3A",
+            "Select 6 credit points: CBK91234 Technical subject choice (Software Engineering)"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "41030 Engineering Capstone",
+            "Select 12 credit points of options",
+            "41098 Software Engineering Studio 3B"
+          ]
+        }
+      }
+    },
+    "Electronic Engineering": {
+      "Year 1": {
+        "Autumn Session": {
+          "Courses": [
+            "33130 Mathematical Modelling 1",
+            "48230 Engineering Communication",
+            "48510 Introduction to Electrical and Electronic Engineering",
+            "48430 Fundamentals of C Programming"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "33230 Mathematical Modelling 2",
+            "48441 Introductory Digital Systems",
+            "41033 Integrated Electronic Systems Design",
+            "41084 Fundamentals Studio A"
+          ]
+        }
+      },
+      "Year 2": {
+        "Autumn Session": {
+          "Courses": [
+            "41035 Engineering Practice Preparation 1",
+            "68037 Physical Modelling",
+            "41081 Sensing, Actuation and Control",
+            "48520 Electronics and Circuits",
+            "41085 Fundamentals Studio B"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "41036 Engineering Professional Experience 1",
+            "41037 Work Integrated Learning 1"
+          ]
+        }
+      },
+      "Year 3": {
+        "Autumn Session": {
+          "Courses": [
+            "48240 Design and Innovation Fundamentals",
+            "41090 Information and Signals",
+            "41086 Applications Studio A",
+            "41038 Engineering Practice Reflection 1",
+            "Select 6 credit points: SMJ10089 Internet of Things (Systems and Devices) / SMJ10090 Internet of Things (Software) / SMJ10091 Communication Systems / SMJ10092 Machine Vision"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "48250 Engineering Economics and Finance",
+            "41034 IoT Components and Fabrication",
+            "41087 Applications Studio B",
+            "Select 6 credit points: SMJ10089 Internet of Things (Systems and Devices) / SMJ10090 Internet of Things (Software) / SMJ10091 Communication Systems / SMJ10092 Machine Vision"
+          ]
+        }
+      },
+      "Year 4": {
+        "Autumn Session": {
+          "Courses": [
+            "48260 Engineering Project Management",
+            "41031 Electronic Analysis and Design",
+            "41088 Professional Studio A",
+            "41045 Engineering Practice Preparation 2",
+            "Select 6 credit points: SMJ10089 Internet of Things (Systems and Devices) / SMJ10090 Internet of Things (Software) / SMJ10091 Communication Systems / SMJ10092 Machine Vision"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "41046 Engineering Professional Experience 2",
+            "41047 Work Integrated Learning 2"
+          ]
+        }
+      },
+      "Year 5": {
+        "Autumn Session": {
+          "Courses": [
+            "48270 Entrepreneurship and Commercialisation",
+            "41029 Engineering Research Preparation",
+            "41089 Professional Studio B",
+            "41048 Engineering Practice Reflection 2",
+            "Select 6 credit points of options"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "41030 Engineering Capstone",
+            "Select 18 credit points of options"
+          ]
+        }
+      }
+    },
+    "Electrical and Electronic Engineering": {
+      "Year 1": {
+        "Autumn Session": {
+          "Courses": [
+            "33130 Mathematical Modelling 1",
+            "48230 Engineering Communication",
+            "68037 Physical Modelling",
+            "48510 Introduction to Electrical and Electronic Engineering"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "33230 Mathematical Modelling 2",
+            "48520 Electronics and Circuits",
+            "41033 Integrated Electronic Systems Design",
+            "41084 Fundamentals Studio A"
+          ]
+        }
+      },
+      "Year 2": {
+        "Autumn Session": {
+          "Courses": [
+            "48430 Fundamentals of C Programming",
+            "48441 Introductory Digital Systems",
+            "48521 Fundamentals of Electrical Engineering",
+            "41085 Fundamentals Studio B",
+            "41035 Engineering Practice Preparation 1"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "41036 Engineering Professional Experience 1",
+            "41037 Work Integrated Learning 1"
+          ]
+        }
+      },
+      "Year 3": {
+        "Autumn Session": {
+          "Courses": [
+            "48240 Design and Innovation Fundamentals",
+            "48540 Signals and Systems",
+            "48530 Circuit Analysis and Design",
+            "48531 Electromechanical Automation",
+            "41038 Engineering Practice Reflection 1"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "48250 Engineering Economics and Finance",
+            "41034 IoT Components and Fabrication",
+            "CBK91876 Electrical Engineering option",
+            "Select 6 credit points: CBK91781 Electrical Engineering Studio choice"
+          ]
+        }
+      },
+      "Year 4": {
+        "Autumn Session": {
+          "Courses": [
+            "48260 Engineering Project Management",
+            "68038 Advanced Mathematics and Physics",
+            "41081 Sensing, Actuation and Control",
+            "Select 6 credit points: CBK91781 Electrical Engineering Studio choice",
+            "41045 Engineering Practice Preparation 2"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "41046 Engineering Professional Experience 2",
+            "41047 Work Integrated Learning 2"
+          ]
+        }
+      },
+      "Year 5": {
+        "Autumn Session": {
+          "Courses": [
+            "48270 Entrepreneurship and Commercialisation",
+            "41029 Engineering Research Preparation",
+            "Select 6 credit points: SMJ10089 Internet of Things (Systems and Devices) / SMJ10090 Internet of Things (Software) / SMJ10091 Communication Systems / SMJ10092 Machine Vision",
+            "41088 Professional Studio A",
+            "41048 Engineering Practice Reflection 2"
+          ]
+        },
+        "Spring Session": {
+          "Courses": [
+            "41030 Engineering Capstone",
+            "Select 12 credit points: SMJ10089 Internet of Things (Systems and Devices) / SMJ10090 Internet of Things (Software) / SMJ10091 Communication Systems / SMJ10092 Machine Vision",
+            "41089 Professional Studio B"
           ]
         }
       }
@@ -537,458 +989,6 @@
             "41030 Engineering Capstone",
             "48670 Mechanical and Mechatronic Design",
             "Select 6 credit points of options"
-          ]
-        }
-      }
-    }
-  },
-  "Mechatronic Engineering": {
-    "Year 1": {
-      "Autumn Session": {
-        "Courses": [
-          "33130 Mathematical Modelling 1",
-          "48230 Engineering Communication",
-          "48610 Introduction to Mechanical and Mechatronic Engineering",
-          "68037 Physical Modelling"
-        ]
-      },
-      "Spring Session": {
-        "Courses": [
-          "33230 Mathematical Modelling 2",
-          "48510 Introduction to Electrical and Electronic Engineering",
-          "48620 Fundamentals of Mechanical Engineering",
-          "48621 Manufacturing Engineering"
-        ]
-      }
-    },
-    "Year 2": {
-      "Autumn Session": {
-        "Courses": [
-          "41035 Engineering Practice Preparation 1",
-          "48240 Design and Innovation Fundamentals",
-          "48520 Electronics and Circuits",
-          "48331 Mechanics of Solids",
-          "48640 Machine Dynamics"
-        ]
-      },
-      "Spring Session": {
-        "Courses": [
-          "41036 Engineering Professional Experience 1",
-          "41037 Work Integrated Learning 1"
-        ]
-      }
-    },
-    "Year 3": {
-      "Autumn Session": {
-        "Courses": [
-          "48600 Mechanical Design 1",
-          "48622 Mechatronics 1",
-          "48642 Strength of Engineering Materials",
-          "48651 Thermodynamics",
-          "41038 Engineering Practice Reflection 1"
-        ]
-      },
-      "Spring Session": {
-        "Courses": [
-          "48623 Mechatronics 2",
-          "48650 Mechanical Design 2",
-          "48660 Dynamics and Control",
-          "48250 Engineering Economics and Finance"
-        ]
-      }
-    },
-    "Year 4": {
-      "Autumn Session": {
-        "Courses": [
-          "41045 Engineering Practice Preparation 2",
-          "48260 Engineering Project Management",
-          "41012 Programming for Mechatronic Systems",
-          "41014 Sensors and Control for Mechatronic Systems",
-          "48531 Electromechanical Automation"
-        ]
-      },
-      "Spring Session": {
-        "Courses": [
-          "41046 Engineering Professional Experience 2",
-          "41047 Work Integrated Learning 2"
-        ]
-      }
-    },
-    "Year 5": {
-      "Autumn Session": {
-        "Courses": [
-          "41029 Engineering Research Preparation",
-          "41013 Robotics",
-          "41048 Engineering Practice Reflection 2",
-          "Select 12 credit points of options"
-        ]
-      },
-      "Spring Session": {
-        "Courses": [
-          "48270 Entrepreneurship and Commercialisation",
-          "41030 Engineering Capstone",
-          "Select 12 credit points of options"
-        ]
-      }
-    },
-    "Data Engineering": {
-      "Year 1": {
-        "Autumn Session": {
-          "Courses": [
-            "33130 Mathematical Modelling 1",
-            "41082 Introduction to Data Engineering",
-            "48430 Fundamentals of C Programming",
-            "Select 6 credit points: 41092 Network Fundamentals / 31250 Introduction to Data Analytics"
-          ]
-        },
-        "Spring Session": {
-          "Courses": [
-            "33230 Mathematical Modelling 2",
-            "41084 Fundamentals Studio A",
-            "48230 Engineering Communication",
-            "Select 6 credit points: 41092 Network Fundamentals / 31250 Introduction to Data Analytics"
-          ]
-        }
-      },
-      "Year 2": {
-        "Autumn Session": {
-          "Courses": [
-            "41035 Engineering Practice Preparation 1",
-            "68037 Physical Modelling",
-            "41081 Sensing, Actuation and Control",
-            "41090 Information and Signals",
-            "41085 Fundamentals Studio B"
-          ]
-        },
-        "Spring Session": {
-          "Courses": [
-            "41036 Engineering Professional Experience 1",
-            "41037 Work Integrated Learning 1"
-          ]
-        }
-      },
-      "Year 3": {
-        "Autumn Session": {
-          "Courses": [
-            "48240 Design and Innovation Fundamentals",
-            "41083 Data Engineering Design",
-            "41086 Applications Studio A",
-            "41038 Engineering Practice Reflection 1",
-            "Select 6 credit points: CBK91231 Technical subject choice (Data Engineering)"
-          ]
-        },
-        "Spring Session": {
-          "Courses": [
-            "48250 Engineering Economics and Finance",
-            "41091 Data Systems",
-            "41087 Applications Studio B",
-            "Select 6 credit points: CBK91231 Technical subject choice (Data Engineering)"
-          ]
-        }
-      },
-      "Year 4": {
-        "Autumn Session": {
-          "Courses": [
-            "48260 Engineering Project Management",
-            "48210 Interrogating Technology: Sustainability, Environment and Social Change",
-            "41088 Professional Studio A",
-            "41045 Engineering Practice Preparation 2",
-            "Select 6 credit points: CBK91231 Technical subject choice (Data Engineering)"
-          ]
-        },
-        "Spring Session": {
-          "Courses": [
-            "41046 Engineering Professional Experience 2",
-            "41047 Work Integrated Learning 2"
-          ]
-        }
-      },
-      "Year 5": {
-        "Autumn Session": {
-          "Courses": [
-            "48270 Entrepreneurship and Commercialisation",
-            "41029 Engineering Research Preparation",
-            "41048 Engineering Practice Reflection 2",
-            "Select 12 credit points of options"
-          ]
-        },
-        "Spring Session": {
-          "Courses": [
-            "41030 Engineering Capstone",
-            "Select 12 credit points of options",
-            "41089 Professional Studio B"
-          ]
-        }
-      }
-    },
-    "Software Engineering": {
-      "Year 1": {
-        "Autumn Session": {
-          "Courses": [
-            "33130 Mathematical Modelling 1",
-            "48230 Engineering Communication",
-            "31269 Business Requirements Modelling",
-            "Select 6 credit points: 41039 Programming 1 / 48023 Programming Fundamentals"
-          ]
-        },
-        "Spring Session": {
-          "Courses": [
-            "33230 Mathematical Modelling 2",
-            "48024 Applications Programming",
-            "31282 Systems Testing and Quality Management",
-            "31271 Database Fundamentals"
-          ]
-        }
-      },
-      "Year 2": {
-        "Autumn Session": {
-          "Courses": [
-            "41035 Engineering Practice Preparation 1",
-            "68037 Physical Modelling",
-            "31251 Data Structures and Algorithms",
-            "31257 Information System Development Methodologies",
-            "41093 Software Engineering Studio 1A"
-          ]
-        },
-        "Spring Session": {
-          "Courses": [
-            "41036 Engineering Professional Experience 1",
-            "41037 Work Integrated Learning 1"
-          ]
-        }
-      },
-      "Year 3": {
-        "Autumn Session": {
-          "Courses": [
-            "48240 Design and Innovation Fundamentals",
-            "Select 6 credit points of options",
-            "41094 Software Engineering Studio 1B",
-            "41038 Engineering Practice Reflection 1",
-            "Select 6 credit points: CBK91234 Technical subject choice (Software Engineering)"
-          ]
-        },
-        "Spring Session": {
-          "Courses": [
-            "48250 Engineering Economics and Finance",
-            "41095 Software Engineering Studio 2A",
-            "48433 Software Architecture",
-            "Select 6 credit points: CBK91234 Technical subject choice (Software Engineering)"
-          ]
-        }
-      },
-      "Year 4": {
-        "Autumn Session": {
-          "Courses": [
-            "41045 Engineering Practice Preparation 2",
-            "48260 Engineering Project Management",
-            "41096 Software Engineering Studio 2B",
-            "Select 6 credit points of options",
-            "Select 6 credit points: CBK91234 Technical subject choice (Software Engineering)"
-          ]
-        },
-        "Spring Session": {
-          "Courses": [
-            "41046 Engineering Professional Experience 2",
-            "41047 Work Integrated Learning 2"
-          ]
-        }
-      },
-      "Year 5": {
-        "Autumn Session": {
-          "Courses": [
-            "41029 Engineering Research Preparation",
-            "48270 Entrepreneurship and Commercialisation",
-            "41048 Engineering Practice Reflection 2",
-            "41097 Software Engineering Studio 3A",
-            "Select 6 credit points: CBK91234 Technical subject choice (Software Engineering)"
-          ]
-        },
-        "Spring Session": {
-          "Courses": [
-            "41030 Engineering Capstone",
-            "Select 12 credit points of options",
-            "41098 Software Engineering Studio 3B"
-          ]
-        }
-      }
-    },
-    "Electronic Engineering": {
-      "Year 1": {
-        "Autumn Session": {
-          "Courses": [
-            "33130 Mathematical Modelling 1",
-            "48230 Engineering Communication",
-            "48510 Introduction to Electrical and Electronic Engineering",
-            "48430 Fundamentals of C Programming"
-          ]
-        },
-        "Spring Session": {
-          "Courses": [
-            "33230 Mathematical Modelling 2",
-            "48441 Introductory Digital Systems",
-            "41033 Integrated Electronic Systems Design",
-            "41084 Fundamentals Studio A"
-          ]
-        }
-      },
-      "Year 2": {
-        "Autumn Session": {
-          "Courses": [
-            "41035 Engineering Practice Preparation 1",
-            "68037 Physical Modelling",
-            "41081 Sensing, Actuation and Control",
-            "48520 Electronics and Circuits",
-            "41085 Fundamentals Studio B"
-          ]
-        },
-        "Spring Session": {
-          "Courses": [
-            "41036 Engineering Professional Experience 1",
-            "41037 Work Integrated Learning 1"
-          ]
-        }
-      },
-      "Year 3": {
-        "Autumn Session": {
-          "Courses": [
-            "48240 Design and Innovation Fundamentals",
-            "41090 Information and Signals",
-            "41086 Applications Studio A",
-            "41038 Engineering Practice Reflection 1",
-            "Select 6 credit points: SMJ10089 Internet of Things (Systems and Devices) / SMJ10090 Internet of Things (Software) / SMJ10091 Communication Systems / SMJ10092 Machine Vision"
-          ]
-        },
-        "Spring Session": {
-          "Courses": [
-            "48250 Engineering Economics and Finance",
-            "41034 IoT Components and Fabrication",
-            "41087 Applications Studio B",
-            "Select 6 credit points: SMJ10089 Internet of Things (Systems and Devices) / SMJ10090 Internet of Things (Software) / SMJ10091 Communication Systems / SMJ10092 Machine Vision"
-          ]
-        }
-      },
-      "Year 4": {
-        "Autumn Session": {
-          "Courses": [
-            "48260 Engineering Project Management",
-            "41031 Electronic Analysis and Design",
-            "41088 Professional Studio A",
-            "41045 Engineering Practice Preparation 2",
-            "Select 6 credit points: SMJ10089 Internet of Things (Systems and Devices) / SMJ10090 Internet of Things (Software) / SMJ10091 Communication Systems / SMJ10092 Machine Vision"
-          ]
-        },
-        "Spring Session": {
-          "Courses": [
-            "41046 Engineering Professional Experience 2",
-            "41047 Work Integrated Learning 2"
-          ]
-        }
-      },
-      "Year 5": {
-        "Autumn Session": {
-          "Courses": [
-            "48270 Entrepreneurship and Commercialisation",
-            "41029 Engineering Research Preparation",
-            "41089 Professional Studio B",
-            "41048 Engineering Practice Reflection 2",
-            "Select 6 credit points of options"
-          ]
-        },
-        "Spring Session": {
-          "Courses": [
-            "41030 Engineering Capstone",
-            "Select 18 credit points of options"
-          ]
-        }
-      }
-    },
-    "Electrical and Electronic Engineering": {
-      "Year 1": {
-        "Autumn Session": {
-          "Courses": [
-            "33130 Mathematical Modelling 1",
-            "48230 Engineering Communication",
-            "68037 Physical Modelling",
-            "48510 Introduction to Electrical and Electronic Engineering"
-          ]
-        },
-        "Spring Session": {
-          "Courses": [
-            "33230 Mathematical Modelling 2",
-            "48520 Electronics and Circuits",
-            "41033 Integrated Electronic Systems Design",
-            "41084 Fundamentals Studio A"
-          ]
-        }
-      },
-      "Year 2": {
-        "Autumn Session": {
-          "Courses": [
-            "48430 Fundamentals of C Programming",
-            "48441 Introductory Digital Systems",
-            "48521 Fundamentals of Electrical Engineering",
-            "41085 Fundamentals Studio B",
-            "41035 Engineering Practice Preparation 1"
-          ]
-        },
-        "Spring Session": {
-          "Courses": [
-            "41036 Engineering Professional Experience 1",
-            "41037 Work Integrated Learning 1"
-          ]
-        }
-      },
-      "Year 3": {
-        "Autumn Session": {
-          "Courses": [
-            "48240 Design and Innovation Fundamentals",
-            "48540 Signals and Systems",
-            "48530 Circuit Analysis and Design",
-            "48531 Electromechanical Automation",
-            "41038 Engineering Practice Reflection 1"
-          ]
-        },
-        "Spring Session": {
-          "Courses": [
-            "48250 Engineering Economics and Finance",
-            "41034 IoT Components and Fabrication",
-            "CBK91876 Electrical Engineering option",
-            "Select 6 credit points: CBK91781 Electrical Engineering Studio choice"
-          ]
-        }
-      },
-      "Year 4": {
-        "Autumn Session": {
-          "Courses": [
-            "48260 Engineering Project Management",
-            "68038 Advanced Mathematics and Physics",
-            "41081 Sensing, Actuation and Control",
-            "Select 6 credit points: CBK91781 Electrical Engineering Studio choice",
-            "41045 Engineering Practice Preparation 2"
-          ]
-        },
-        "Spring Session": {
-          "Courses": [
-            "41046 Engineering Professional Experience 2",
-            "41047 Work Integrated Learning 2"
-          ]
-        }
-      },
-      "Year 5": {
-        "Autumn Session": {
-          "Courses": [
-            "48270 Entrepreneurship and Commercialisation",
-            "41029 Engineering Research Preparation",
-            "Select 6 credit points: SMJ10089 Internet of Things (Systems and Devices) / SMJ10090 Internet of Things (Software) / SMJ10091 Communication Systems / SMJ10092 Machine Vision",
-            "41088 Professional Studio A",
-            "41048 Engineering Practice Reflection 2"
-          ]
-        },
-        "Spring Session": {
-          "Courses": [
-            "41030 Engineering Capstone",
-            "Select 12 credit points: SMJ10089 Internet of Things (Systems and Devices) / SMJ10090 Internet of Things (Software) / SMJ10091 Communication Systems / SMJ10092 Machine Vision",
-            "41089 Professional Studio B"
           ]
         }
       }

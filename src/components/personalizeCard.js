@@ -17,6 +17,9 @@ const PersonalizeCard = () => {
   const [selectedMajor, setSelectedMajor] = useState(null);
   const [selectedYear, setSelectedYear] = useState(null); 
 
+  // Hard coded data
+  const specificCourse = ["Bachelor of Engineering (Honours) Diploma in Professional Engineering Practice"]
+
   // Fetch and parse the Course CSV file
   useEffect(() => {
     Papa.parse(courseFile, {
@@ -85,7 +88,8 @@ const PersonalizeCard = () => {
               <Typography variant="subtitle1">Select Course</Typography>
               <Autocomplete
                 id="course-select"
-                options={courses}
+                // options={courses}
+                options={specificCourse}
                 getOptionLabel={(option) => option}
                 value={selectedCourse}
                 onChange={(event, newValue) => setSelectedCourse(newValue)}

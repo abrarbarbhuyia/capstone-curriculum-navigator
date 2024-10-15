@@ -635,7 +635,7 @@
           "Courses": [
             "48240 Design and Innovation Fundamentals",
             "41094 Software Engineering Studio 1B",
-            "Select 6 credit points of options",
+            "Select 6 credit points: CBK91234 Technical subject choice (Software Engineering)",
             "Select 6 credit points: CBK91234 Technical subject choice (Software Engineering)"
           ]
         }
@@ -645,7 +645,7 @@
           "Courses": [
             "48250 Engineering Economics and Finance",
             "41095 Software Engineering Studio 2A",
-            "Select 6 credit points of options",
+            "Select 6 credit points: CBK91234 Technical subject choice (Software Engineering)",
             "Select 6 credit points: CBK91234 Technical subject choice (Software Engineering)"
           ]
         },
@@ -673,7 +673,7 @@
           "Courses": [
             "41030 Engineering Capstone",
             "41098 Software Engineering Studio 3B",
-            "Select 12 credit points of options"
+            "Select 12 credit points: CBK91234 Technical subject choice (Software Engineering)"
           ]
         }
       }
